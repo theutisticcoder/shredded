@@ -14,5 +14,10 @@
 		allowfullscreen=''
 		onload='this.focus()'
 		scrolling='no'>
-		</iframe></body>
+		</iframe>
+		<script>
+			document.querySelector("iframe").style.width = window.innerWidth;
+			document.querySelector("iframe").style.height = window.innerHeight;
+		</script>
+	</body>
 </html>
